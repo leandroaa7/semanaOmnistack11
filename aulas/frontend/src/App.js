@@ -1,8 +1,15 @@
 import React from 'react';
 
+import './global.css';
+
+import Logon from './pages/Logon';
+
+//quando um html está escrito em um arquivo javascript
+//chama de JSX (JavaScript XML)
+//integração de html e javascript
 function App() {
   return (
-    <h1>Hello</h1>
+    <Logon />
   );
 }
 
